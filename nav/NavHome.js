@@ -15,15 +15,15 @@ const Tabs = ()=>{
                 headerShown: false,
                 tabBarShowLabel: false,
                 tabBarStyle: {
-                    position: 'absolute',
-                    bottom: 25,
-                    left: 20,
-                    right: 20,
-                    elevation: 0,
-                    backgroundColor: '#fff',
-                    borderRadius: 15,
-                    height: 90,
-                    ...styles.shadow,
+                    // position: 'absolute',
+                    // bottom: 25,
+                    // left: 20,
+                    // right: 20,
+                    // elevation: 0,
+                    // backgroundColor: '#fff',
+                    // borderRadius: 15,
+                    // height: 90,
+                    // ...styles.shadow,
                 }
             }}
         >
@@ -35,13 +35,13 @@ const Tabs = ()=>{
                                 resizeMode='contain'
                                 style={{
                                     width: 25,
-                                    height: 25,
-                                    tintColor: focused ? '#5295FA': '#EFEFD8'
+                                    height: 20,
+                                    tintColor: focused ? '#5295FA': 'gray'
                                 }}
                             />
                             <Text
                                 style={{
-                                    color: focused ? '#5295FA': '#EFEFD8',
+                                    color: focused ? '#5295FA': 'gray',
                                     fontSize: 12
                                 }}
                             >Tin Tức</Text>
@@ -57,13 +57,13 @@ const Tabs = ()=>{
                                 resizeMode='contain'
                                 style={{
                                     width: 25,
-                                    height: 25,
-                                    tintColor: focused ? '#5295FA': '#EFEFD8'
+                                    height: 20,
+                                    tintColor: focused ? '#5295FA': 'gray'
                                 }}
                             />
                             <Text
                                 style={{
-                                    color: focused ? '#5295FA': '#EFEFD8',
+                                    color: focused ? '#5295FA': 'gray',
                                     fontSize: 12
                                 }}
                             >Theo Dõi</Text>
@@ -79,13 +79,13 @@ const Tabs = ()=>{
                                 resizeMode='contain'
                                 style={{
                                     width: 25,
-                                    height: 25,
-                                    tintColor: focused ? '#5295FA': '#EFEFD8'
+                                    height: 20,
+                                    tintColor: focused ? '#5295FA': 'gray'
                                 }}
                             />
                             <Text
                                 style={{
-                                    color: focused ? '#5295FA': '#EFEFD8',
+                                    color: focused ? '#5295FA': 'gray',
                                     fontSize: 12
                                 }}
                             >Video</Text>
@@ -101,13 +101,13 @@ const Tabs = ()=>{
                                 resizeMode='contain'
                                 style={{
                                     width: 25,
-                                    height: 25,
-                                    tintColor: focused ? '#5295FA': '#EFEFD8'
+                                    height: 20,
+                                    tintColor: focused ? '#5295FA': 'gray'
                                 }}
                             />
                             <Text
                                 style={{
-                                    color: focused ? '#5295FA': '#EFEFD8',
+                                    color: focused ? '#5295FA': 'gray',
                                     fontSize: 12
                                 }}
                             >Xu Hướng</Text>
@@ -123,13 +123,13 @@ const Tabs = ()=>{
                                 resizeMode='contain'
                                 style={{
                                     width: 25,
-                                    height: 25,
-                                    tintColor: focused ? '#5295FA': '#EFEFD8'
+                                    height: 20,
+                                    tintColor: focused ? '#5295FA': 'gray'
                                 }}
                             />
                             <Text
                                 style={{
-                                    color: focused ? '#5295FA': '#EFEFD8',
+                                    color: focused ? '#5295FA': 'gray',
                                     fontSize: 12
                                 }}
                             >Setting</Text>

@@ -6,7 +6,7 @@ const Signup=({navigation})=>{
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
   const SignUp = () =>{
-    return fetch('http://192.168.43.87/Bao_Cao_Bao/Signup.php',{
+    return fetch('http://192.168.0.102/Bao_Cao_Bao/Signup.php',{
     method: 'POST',
     headers: {
     'Accept': 'application/json',

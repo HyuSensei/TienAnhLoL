@@ -5,7 +5,7 @@ const Signin=({navigation})=>{
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const loginUser=()=>{
-       return fetch('http://192.168.43.87/Bao_Cao_Bao/Login.php', {
+       return fetch('http://192.168.0.102/Bao_Cao_Bao/Login.php', {
         method: 'POST',
          headers: {
     'Accept': 'application/json',
@@ -38,6 +38,7 @@ const Signin=({navigation})=>{
         console.error(error);
       });
     }
+    
         return (
             <SafeAreaView style={styles.container}>
                 <KeyboardAvoidingView
